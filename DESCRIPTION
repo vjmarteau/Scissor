@@ -5,7 +5,7 @@ Authors@R: c(person("Duanchen", "Sun", role = c("aut", "cre"), email = "sund@ohs
 Maintainer: Duanchen Sun <sund@ohsu.edu>
 Description: Scissor is a novel approach that utilizes the bulk phenotypes, such as disease stage, tumor metastasis, treatment response, and survival outcomes, to identify the most highly phenotype-associated cell subpopulations from single-cell data.
 License: GPL (>= 2)
-Depends: R (>= 3.6.1), Seurat (<= 4.4.0), Matrix (>= 1.2-18)
+Depends: R (>= 3.6.1), Seurat (>= 3.2.0), Matrix (>= 1.2-18)
 LazyData: true
 Imports: Rcpp, Matrix, Seurat, preprocessCore, progress, pROC, survival, knitr, rmarkdown
 LinkingTo: Rcpp, RcppEigen
