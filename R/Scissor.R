@@ -156,6 +156,7 @@ Scissor <- function(bulk_dataset, sc_dataset, phenotype, tag = NULL,
     return(list(para = list(alpha = alpha[i], lambda = fit0$lambda.min, family = family),
                 Coefs = Coefs,
                 Scissor_pos = Cell1,
-                Scissor_neg = Cell2))
+                Scissor_neg = Cell2,
+                Corr_matrix = X))
 }
 
